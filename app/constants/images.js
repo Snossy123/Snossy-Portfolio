@@ -40,6 +40,19 @@ import nextjs from '../assets/nextjs.png';
 import tailwind from '../assets/tailwind.png';
 import postman from '../assets/postman.png';
 import openAI from '../assets/openAI.jpg';
+import security from '../assets/security.png';
+import mp3player from '../assets/mp3 player.png';
+import house from '../assets/house.png';
+import sparks from '../assets/sparks.png';
+import plotter from '../assets/plotter.png';
+import currency from '../assets/currency.png';
+import API4 from '../assets/API4.png';
+import dataAnalysis from '../assets/dataAnalysis.png';
+import fitness from '../assets/fitness.png';
+import coffee from '../assets/coffee.png';
+import medium from '../assets/medium.png';
+import transportation from '../assets/transportation.png';
+import eCommerce from '../assets/eCommerce.png';
 
 export default { 
   openAI,
@@ -81,4 +94,17 @@ export default {
   nb,
   skype,
   spotify,
+  security,
+  mp3player,
+  house,
+  sparks,
+  plotter,
+  currency,
+  API4,
+  dataAnalysis,
+  fitness,
+  coffee,
+  medium,
+  transportation,
+  eCommerce,
 };

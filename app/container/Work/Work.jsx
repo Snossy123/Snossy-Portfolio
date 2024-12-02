@@ -7,19 +7,10 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import './Work.scss';
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs";
 import Image from "next/image";
+import { images } from '../../constants';
 
 // (id, created_at, title, description, "projectLink", "codeLink", "imgUrl", tags)
 const worksData = [
-  {
-    id: 2,
-    created_at: "2023-09-20 20:44:52.931768+00",
-    title: "Modern UI/UX Website",
-    description: "A modern UI/UX portfolio website",
-    projectLink: "https://medium-clone-nextjs-supabase.vercel.app/",
-    codeLink: "https://github.com/Snossy123/medium-clone-nextjs-supabase",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/about03.png",
-    tags: ["UI/UX", "All"],
-  },
   {
     id: 3,
     created_at: "2023-09-20 20:58:49.926499+00",
@@ -27,7 +18,7 @@ const worksData = [
     description: "Modern Full Stack ECommerce App",
     projectLink: "https://snossyecommerce.000webhostapp.com/",
     codeLink: "https://github.com/Snossy123/ecommerce-xano-stripe",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/about02.png",
+    imgUrl: images.eCommerce,
     tags: ["React JS", "All"],
   },
   {
@@ -37,7 +28,7 @@ const worksData = [
     description: "Image quantization is a lossy compression technique used in image processing using C#.",
     projectLink: "https://github.com/Snossy123/projects-for-college/tree/main/Algorithm%20Projects",
     codeLink: "https://github.com/Snossy123/projects-for-college/tree/main/Algorithm%20Projects",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/sparks.png",
+    imgUrl: "https://imgs.search.brave.com/PYvSC-AuUjpX-3ySfn3_bpUyjzC7ITN391HMnC3FGvk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9vbmxp/bmVwbmd0b29scy5j/b20vaW1hZ2VzL3Bu/Zy9pY29ucy9zcGxp/dC1wbmctaW50by1y/Z2ItY29tcG9uZW50/cy5wbmc",
     tags: ["Algorithm", "College", "C#"],
   },
   {
@@ -47,7 +38,7 @@ const worksData = [
     description: "The system serves as a reservation platform for bus trips, primarily utilized by a booking office.",
     projectLink: "https://github.com/Snossy123/Transportation-Management-System/blob/main/phase%202/DBTMS.sql",
     codeLink: "https://github.com/Snossy123/Transportation-Management-System",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/database.png",
+    imgUrl: images.transportation,
     tags: ["Database", "All", "Team Work", "College"],
   },
   {
@@ -57,7 +48,7 @@ const worksData = [
     description: "A Medium clone website built using Next.js and Supabase.",
     projectLink: "https://medium-clone-nextjs-supabase.vercel.app/",
     codeLink: "https://github.com/Snossy123/medium-clone-nextjs-supabase",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/about01.png",
+    imgUrl: images.medium,
     tags: ["NextJs", "React", "Supabase", "HTML", "CSS", "JS", "Full Stack", "All"]
   },
   {
@@ -67,7 +58,7 @@ const worksData = [
     description: "A landing page for a fitness trainer designed with HTML, CSS, and JavaScript.",
     projectLink: "https://snossyfitness.000webhostapp.com/",
     codeLink: "https://github.com/Snossy123/Fitness-Trainer",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/fitness.png",
+    imgUrl: images.fitness,
     tags: ["Frontend", "HTML", "JS", "CSS", "All"]
   },
   {
@@ -77,7 +68,7 @@ const worksData = [
     description: "Participated in a virtual internship as a data analyst, working with a talented team.",
     projectLink: "https://www.theforage.com/virtual-internships/prototype/hzmoNKtzvAzXsEqx8/Data-Analytics-Virtual-Experience",
     codeLink: "https://github.com/Snossy123/Accenture-Internship",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/accenture.png",
+    imgUrl: images.dataAnalysis,
     tags: ["Data Analysis", "All"]
   },
   {
@@ -87,7 +78,7 @@ const worksData = [
     description: "API for managing and storing device topologies using JSON files and enabling queries.",
     projectLink: "https://raw.githubusercontent.com/Snossy123/Topology-API/main/Test_API_Topology.jpg",
     codeLink: "https://github.com/Snossy123/Topology-API",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/API2.png",
+    imgUrl: images.API4,
     tags: ["Java", "API", "Testing", "Backend", "All"]
   },
   {
@@ -107,7 +98,7 @@ const worksData = [
     description: "An app used to convert the value of one currency into another currency.",
     projectLink: "https://github.com/Snossy123/Real-time-Currency-Converter/blob/main/testing.PNG?raw=true",
     codeLink: "https://github.com/Snossy123/Real-time-Currency-Converter",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/Real%20time%20currency%20converter.png",
+    imgUrl: images.currency,
     tags: ["Python", "All"]
   },
   {
@@ -117,7 +108,7 @@ const worksData = [
     description: "A program to store a 3D matrix in a 1D vector (flattened).",
     projectLink: "https://camo.githubusercontent.com/6306e94a88469ffa517a9130f9455b092202b01ec7c28d39524d00ad148ecdbe/68747470733a2f2f692e737461636b2e696d6775722e636f6d2f7a6d3748522e676966",
     codeLink: "https://github.com/Snossy123/Matrix-Flatten",
-    imgUrl: "https://camo.githubusercontent.com/6306e94a88469ffa517a9130f9455b092202b01ec7c28d39524d00ad148ecdbe/68747470733a2f2f692e737461636b2e696d6775722e636f6d2f7a6d3748522e676966",
+    imgUrl: "https://imgs.search.brave.com/bGWy_uBEVLb_u7aYA6HwKbTvUT88WhSahJpipNUZ8A0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dzNyZXNvdXJjZS5j/b20vdzNyX2ltYWdl/cy9udW1weS1tYW5p/cHVsYXRpb24tbmRh/cnJheS1mbGF0dGVu/LWZ1bmN0aW9uLWlt/YWdlLTEucG5n",
     tags: ["C++", "All"]
   },
   {
@@ -137,7 +128,7 @@ const worksData = [
     description: "A GUI program that plots arbitrary user-entered functions.",
     projectLink: "https://github.com/Snossy123/Function-Plotter/blob/main/test/test1%20valid%20Input.jpg?raw=true",
     codeLink: "https://github.com/Snossy123/Function-Plotter",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/function%20plot%20ex.png",
+    imgUrl: images.plotter,
     tags: ["Python", "Frontend", "Testing", "All"]
   },
   {
@@ -147,7 +138,7 @@ const worksData = [
     description: "Work done during the Sparks Foundation Internship in Data Science and Business Analytics.",
     projectLink: "https://github.com/Snossy123/The_Sparks_Foundation_Internship",
     codeLink: "https://github.com/Snossy123/The_Sparks_Foundation_Internship",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/sparks.png",
+    imgUrl: images.sparks,
     tags: ["Data Analysis", "ML", "Python", "All"]
   },
   {
@@ -167,7 +158,7 @@ const worksData = [
     description: "A project simulating the operations of a coffee shop, managing orders, inventory, and customer interactions.",
     projectLink: "https://snossycoffee.000webhostapp.com/",
     codeLink: "https://github.com/Snossy123/Coffee-House",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/coffe_house.jpg",
+    imgUrl: images.coffee,
     tags: ["Frontend", "HTML", "JS", "JQuery", "CSS", "Bootstrap", "All"]
   },
   {
@@ -207,7 +198,7 @@ const worksData = [
     description: "A Python-based machine learning project predicting house prices using attributes such as house age and the number of nearby convenience stores.",
     projectLink: "https://github.com/Snossy123/Machine-Learning-From-Scratch",
     codeLink: "https://github.com/Snossy123/Machine-Learning-From-Scratch",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/House.png",
+    imgUrl: images.house,
     tags: ["ML", "College", "Python"]
   },
   {
@@ -297,7 +288,7 @@ const worksData = [
     description: "A music player application for managing and listening to music files.",
     projectLink: "https://github.com/Snossy123/projects-for-college/tree/main/Python%20Projects/MP3%20Player",
     codeLink: "https://github.com/Snossy123/projects-for-college/tree/main/Python%20Projects/MP3%20Player",
-    imgUrl: "https://cdn.dribbble.com/users/13367417/screenshots/20342801/media/41a056c2b5c45855695d61d481b2a824.png?resize=768x576&vertical=center",
+    imgUrl: images.mp3player,
     tags: ["Python"]
   },
   {
@@ -317,7 +308,7 @@ const worksData = [
     description: "Designed a software piracy protection system.",
     projectLink: "https://github.com/Snossy123/projects-for-college/tree/main/Software%20Engineer%20Projects/Software%20Piracy%20Protection%20Project",
     codeLink: "https://github.com/Snossy123/projects-for-college/tree/main/Software%20Engineer%20Projects/Software%20Piracy%20Protection%20Project",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/security.png",
+    imgUrl: images.security,
     tags: ["System Analysis & Design", "College"]
   },
   {
