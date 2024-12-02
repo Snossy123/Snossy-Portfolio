@@ -18,7 +18,7 @@ const worksData = [
     description: "Modern Full Stack ECommerce App",
     projectLink: "https://snossyecommerce.000webhostapp.com/",
     codeLink: "https://github.com/Snossy123/ecommerce-xano-stripe",
-    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/eCommerce.png",
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/eCommerce.png?raw=true",
     tags: ["React JS", "All"],
   },
   {
@@ -38,7 +38,7 @@ const worksData = [
     description: "The system serves as a reservation platform for bus trips, primarily utilized by a booking office.",
     projectLink: "https://github.com/Snossy123/Transportation-Management-System/blob/main/phase%202/DBTMS.sql",
     codeLink: "https://github.com/Snossy123/Transportation-Management-System",
-    imgUrl: images.transportation,
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/transportation.png?raw=true",
     tags: ["Database", "All", "Team Work", "College"],
   },
   {
@@ -48,7 +48,7 @@ const worksData = [
     description: "A Medium clone website built using Next.js and Supabase.",
     projectLink: "https://medium-clone-nextjs-supabase.vercel.app/",
     codeLink: "https://github.com/Snossy123/medium-clone-nextjs-supabase",
-    imgUrl: images.medium,
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/medium.png?raw=true",
     tags: ["NextJs", "React", "Supabase", "HTML", "CSS", "JS", "Full Stack", "All"]
   },
   {
@@ -58,7 +58,7 @@ const worksData = [
     description: "A landing page for a fitness trainer designed with HTML, CSS, and JavaScript.",
     projectLink: "https://snossyfitness.000webhostapp.com/",
     codeLink: "https://github.com/Snossy123/Fitness-Trainer",
-    imgUrl: images.fitness,
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/fitness.png?raw=true",
     tags: ["Frontend", "HTML", "JS", "CSS", "All"]
   },
   {
@@ -68,7 +68,7 @@ const worksData = [
     description: "Participated in a virtual internship as a data analyst, working with a talented team.",
     projectLink: "https://www.theforage.com/virtual-internships/prototype/hzmoNKtzvAzXsEqx8/Data-Analytics-Virtual-Experience",
     codeLink: "https://github.com/Snossy123/Accenture-Internship",
-    imgUrl: images.dataAnalysis,
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/dataAnalysis.png?raw=true",
     tags: ["Data Analysis", "All"]
   },
   {
@@ -78,7 +78,7 @@ const worksData = [
     description: "API for managing and storing device topologies using JSON files and enabling queries.",
     projectLink: "https://raw.githubusercontent.com/Snossy123/Topology-API/main/Test_API_Topology.jpg",
     codeLink: "https://github.com/Snossy123/Topology-API",
-    imgUrl: images.API4,
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/API4.png?raw=true",
     tags: ["Java", "API", "Testing", "Backend", "All"]
   },
   {
@@ -98,7 +98,7 @@ const worksData = [
     description: "An app used to convert the value of one currency into another currency.",
     projectLink: "https://github.com/Snossy123/Real-time-Currency-Converter/blob/main/testing.PNG?raw=true",
     codeLink: "https://github.com/Snossy123/Real-time-Currency-Converter",
-    imgUrl: images.currency,
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/currency.png?raw=true",
     tags: ["Python", "All"]
   },
   {
@@ -128,7 +128,7 @@ const worksData = [
     description: "A GUI program that plots arbitrary user-entered functions.",
     projectLink: "https://github.com/Snossy123/Function-Plotter/blob/main/test/test1%20valid%20Input.jpg?raw=true",
     codeLink: "https://github.com/Snossy123/Function-Plotter",
-    imgUrl: images.plotter,
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/plotter.png?raw=true",
     tags: ["Python", "Frontend", "Testing", "All"]
   },
   {
@@ -138,7 +138,7 @@ const worksData = [
     description: "Work done during the Sparks Foundation Internship in Data Science and Business Analytics.",
     projectLink: "https://github.com/Snossy123/The_Sparks_Foundation_Internship",
     codeLink: "https://github.com/Snossy123/The_Sparks_Foundation_Internship",
-    imgUrl: images.sparks,
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/sparks.png?raw=true",
     tags: ["Data Analysis", "ML", "Python", "All"]
   },
   {
@@ -158,7 +158,7 @@ const worksData = [
     description: "A project simulating the operations of a coffee shop, managing orders, inventory, and customer interactions.",
     projectLink: "https://snossycoffee.000webhostapp.com/",
     codeLink: "https://github.com/Snossy123/Coffee-House",
-    imgUrl: images.coffee,
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/coffee.png?raw=true",
     tags: ["Frontend", "HTML", "JS", "JQuery", "CSS", "Bootstrap", "All"]
   },
   {
@@ -198,7 +198,7 @@ const worksData = [
     description: "A Python-based machine learning project predicting house prices using attributes such as house age and the number of nearby convenience stores.",
     projectLink: "https://github.com/Snossy123/Machine-Learning-From-Scratch",
     codeLink: "https://github.com/Snossy123/Machine-Learning-From-Scratch",
-    imgUrl: images.house,
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/house.png?raw=true",
     tags: ["ML", "College", "Python"]
   },
   {
@@ -288,7 +288,7 @@ const worksData = [
     description: "A music player application for managing and listening to music files.",
     projectLink: "https://github.com/Snossy123/projects-for-college/tree/main/Python%20Projects/MP3%20Player",
     codeLink: "https://github.com/Snossy123/projects-for-college/tree/main/Python%20Projects/MP3%20Player",
-    imgUrl: images.mp3player,
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/mp3player.png?raw=true",
     tags: ["Python"]
   },
   {
@@ -308,7 +308,7 @@ const worksData = [
     description: "Designed a software piracy protection system.",
     projectLink: "https://github.com/Snossy123/projects-for-college/tree/main/Software%20Engineer%20Projects/Software%20Piracy%20Protection%20Project",
     codeLink: "https://github.com/Snossy123/projects-for-college/tree/main/Software%20Engineer%20Projects/Software%20Piracy%20Protection%20Project",
-    imgUrl: images.security,
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/security.png?raw=true",
     tags: ["System Analysis & Design", "College"]
   },
   {
