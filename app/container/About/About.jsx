@@ -14,35 +14,35 @@ const aboutsData =[
     createdAt: "2023-09-20 19:11:23.267791+00",
     title: "Fast",
     description: "Fast load times and lag free interaction, my highest priority.",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/about01.png?t=2023-09-20T20%3A10%3A48.487Z",
+    imgUrl: "/assets/about01.png",
   },
   {
     id: 2,
     createdAt: "2023-09-20 19:13:26.924869+00",
     title: "Intuitive",
     description: "Strong preference for easy to use, intuitive UX/UI.",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/about02.png",
+    imgUrl: "/assets/about02.png",
   },
   {
     id: 4,
     createdAt: "2023-09-20 19:28:10.949552+00",
     title: "Responsive",
     description: "My layouts will work on any device, big or small.",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/about04.png",
+    imgUrl: "/assets/about04.png",
   },
   {
     id: 3,
     createdAt: "2023-09-20 19:27:16.520439+00",
     title: "Dynamic",
     description: "Websites don't have to be static, I love making pages come to life.",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/about03.png",
+    imgUrl: "/assets/about03.png",
   },
   {
     id: 5,
     createdAt: "2023-09-22 12:21:11.747+00",
     title: "Backend Development",
     description: "I specialize in building robust and scalable backend systems that power your applications. From designing databases to creating APIs, I've got the backend covered.",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/database.png",
+    imgUrl: "/assets/database.png",
   },
   {
     id: 6,
@@ -50,7 +50,7 @@ const aboutsData =[
     title: "Database Management",
     description:
       "Managing data efficiently is key to any successful application. I excel in setting up, optimizing, and maintaining databases to ensure your data is always accessible and secure.",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/database2.png",
+    imgUrl: "/assets/database2.png",
   },
   {
     id: 7,
@@ -58,7 +58,7 @@ const aboutsData =[
     title: "CMS",
     description:
       "I'm well-versed in CMS platforms like WordPress, making it easy for you to manage your website's content efficiently and keep it up-to-date.",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/dashboard.png",
+    imgUrl: "/assets/dashboard.png",
   },
   {
     id: 8,
@@ -66,7 +66,7 @@ const aboutsData =[
     title: "Data Analytics",
     description:
       "I have a strong background in data analytics, helping businesses gain insights from their data to make informed decisions and drive growth.",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/report.png",
+    imgUrl: "/assets/report.png",
   },
   {
     id: 9,
@@ -74,7 +74,7 @@ const aboutsData =[
     title: "Security",
     description:
       "Security is paramount in today's digital landscape. I'm well-versed in implementing industry best practices to safeguard your applications and data from threats and vulnerabilities.",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/security.png",
+    imgUrl: "/assets/security.png",
   },
   {
     id: 10,
@@ -82,7 +82,7 @@ const aboutsData =[
     title: "API Development",
     description:
       "I have a knack for crafting APIs that allow your applications to communicate seamlessly with the backend, enabling a smooth flow of data and functionality.",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/API3.png",
+    imgUrl: "/assets/API3.png",
   },
   {
     id: 11,
@@ -90,7 +90,7 @@ const aboutsData =[
     title: "API Integration",
     description:
       "Integrating third-party APIs is my expertise. I can seamlessly incorporate external services to enhance your application's capabilities and provide real-time data.",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/API2.png",
+    imgUrl: "/assets/API2.png",
   },
   {
     id: 12,
@@ -98,7 +98,7 @@ const aboutsData =[
     title: "Data Science",
     description:
       "I am a deep learning and machine learning practitioner and learner. Solving a problem and gaining insights with the help of machine learning algorithms has always seemed to be a superpower for me. I am here to solve things, Learning a lot in the process.",
-    imgUrl: "https://xztrvbzwbwrxkhpkblaq.supabase.co/storage/v1/object/public/about/openAI%20(1).jpg",
+    imgUrl: "/assets/openAI%20(1).jpg",
   },
 ];
 
