@@ -18,7 +18,7 @@ const worksData = [
     description: "Modern Full Stack ECommerce App",
     projectLink: "https://snossyecommerce.000webhostapp.com/",
     codeLink: "https://github.com/Snossy123/ecommerce-xano-stripe",
-    imgUrl: "/assets/eCommerce.png",
+    imgUrl: "https://github.com/Snossy123/Snossy-Portfolio/blob/main/app/assets/eCommerce.png",
     tags: ["React JS", "All"],
   },
   {
