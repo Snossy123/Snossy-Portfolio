@@ -18,7 +18,7 @@ const worksData = [
     description: "Modern Full Stack ECommerce App",
     projectLink: "https://snossyecommerce.000webhostapp.com/",
     codeLink: "https://github.com/Snossy123/ecommerce-xano-stripe",
-    imgUrl: "" + images.eCommerce,
+    imgUrl: images.eCommerce,
     tags: ["React JS", "All"],
   },
   {
@@ -38,7 +38,7 @@ const worksData = [
     description: "The system serves as a reservation platform for bus trips, primarily utilized by a booking office.",
     projectLink: "https://github.com/Snossy123/Transportation-Management-System/blob/main/phase%202/DBTMS.sql",
     codeLink: "https://github.com/Snossy123/Transportation-Management-System",
-    imgUrl: "" + images.transportation,
+    imgUrl: images.transportation,
     tags: ["Database", "All", "Team Work", "College"],
   },
   {
@@ -425,10 +425,17 @@ const Work = () => {
     >
       {filteredWorks.map((work, index) => (
         <div className="app__work-item app__flex" key={index}>
+            <img src={work.imgUrl} alt="Test Image" />
+
+            // For Image
+            import Image from 'next/image';
+            <Image src={work.imgUrl} alt="Test Image" width={500} height={300} />
           <div
             className="app__work-img app__flex"
           >
             <img src={work.imgUrl} alt={work.name} />
+            // For img
+
 
             <motion.div
               whileHover={{ opacity: [0, 1] }}
