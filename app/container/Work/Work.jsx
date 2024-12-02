@@ -18,7 +18,7 @@ const worksData = [
     description: "Modern Full Stack ECommerce App",
     projectLink: "https://snossyecommerce.000webhostapp.com/",
     codeLink: "https://github.com/Snossy123/ecommerce-xano-stripe",
-    imgUrl: images.eCommerce,
+    imgUrl: "app/assets/eCommerce.png",
     tags: ["React JS", "All"],
   },
   {
@@ -425,16 +425,11 @@ const Work = () => {
     >
       {filteredWorks.map((work, index) => (
         <div className="app__work-item app__flex" key={index}>
-            <img src={work.imgUrl} alt="Test Image" />
 
-            // For Image
-            import Image from 'next/image';
-            <Image src={work.imgUrl} alt="Test Image" width={500} height={300} />
           <div
             className="app__work-img app__flex"
           >
-            <img src={work.imgUrl} alt={work.name} />
-            // For img
+            <img src={work.imgUrl} alt={work.title} />
 
 
             <motion.div
