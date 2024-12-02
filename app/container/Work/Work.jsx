@@ -18,7 +18,7 @@ const worksData = [
     description: "Modern Full Stack ECommerce App",
     projectLink: "https://snossyecommerce.000webhostapp.com/",
     codeLink: "https://github.com/Snossy123/ecommerce-xano-stripe",
-    imgUrl: images.eCommerce,
+    imgUrl: images.eCommerceWebSiteCommerce,
     tags: ["React JS", "All"],
   },
   {
@@ -428,7 +428,7 @@ const Work = () => {
           <div
             className="app__work-img app__flex"
           >
-            <img src={work.imgUrl} alt={work.name} />
+            <Image src={work.imgUrl} alt={work.name} />
 
             <motion.div
               whileHover={{ opacity: [0, 1] }}
